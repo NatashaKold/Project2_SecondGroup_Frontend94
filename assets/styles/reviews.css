@@ -23,35 +23,30 @@ background-color:rgb(26, 108, 140) ;
 }
 
 @media screen and (max-width: 865px) {
-   
     .carousel-text{
         font-size: 14px;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
-    .more{
-        display: block;
-    }
+    .addReview{
+        width: 30%;
+        font-size: 14px;
+     }
 }
 @media screen and (max-width: 550px) {
-    .tour-carousel-title{
-        font-size: 20px;
-    }
     .carousel-text{
-        -webkit-line-clamp: 3;
+        font-size: 12px;
     }
+    .addReview{
+        width: 30%;
+        font-size: 12px;
+     }
 }
 
 @media screen and (max-width: 450px) {
-    .tour-carousel-title{
-        font-size: 18px;
-        margin-bottom: 1em;
+    .carousel-text{
+        font-size: 10px;
     }
-    .tour-text{
-        display: none;
+    .addReview{
+       width: 30%;
+       font-size: 10px;
     }
-    
 }
