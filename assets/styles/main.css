@@ -8,7 +8,12 @@
 }
 
 .tour-carousel-title{
-    font-size: 32px;
+    font-size: 40px;
+    color: white;
+}
+
+.tour-text{
+    color: white;
 }
 
 @media screen and (max-width: 865px) {

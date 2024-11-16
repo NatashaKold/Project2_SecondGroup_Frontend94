@@ -1,6 +1,10 @@
 .carousel_container{
 background-color:rgb(26, 108, 140) ;
 }
+.d-block{
+    width: 100vw;
+    object-fit: cover;
+}
 
 .carousel-caption {
     color: white;
