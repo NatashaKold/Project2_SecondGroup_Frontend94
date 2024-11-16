@@ -3,8 +3,10 @@ background-color:rgb(26, 108, 140) ;
 }
 .d-block{
     width: 100vw;
-    object-fit: cover;
 }
+
+img{
+    object-fit: cover;}
 
 .carousel-caption {
     color: white;
@@ -23,6 +25,10 @@ background-color:rgb(26, 108, 140) ;
 }
 
 @media screen and (max-width: 865px) {
+    .d-block{
+        height: 100vh;
+    }
+
     .carousel-text{
         font-size: 14px;
     }
