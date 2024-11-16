@@ -6,7 +6,8 @@ background-color:rgb(26, 108, 140) ;
 }
 
 img{
-    object-fit: cover;}
+    object-fit: cover;
+}
 
 .carousel-caption {
     color: white;
