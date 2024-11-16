@@ -2,6 +2,10 @@
     color: black;
 }
 
+.tour-textbox{
+    background-color: rgba(14, 57, 14, 0.488);
+}
+
 .more{
     display: none;
     font-size: 12px;
