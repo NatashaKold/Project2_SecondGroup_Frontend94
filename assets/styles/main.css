@@ -2,7 +2,7 @@
     color: black;
 }
 
-@media screen and (max-width 425px) {
+@media screen and (max-width: 425px) {
     .carousel-text{
         font-size: 14px;
     } 
