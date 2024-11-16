@@ -1,0 +1,52 @@
+.carousel_container{
+background-color:rgb(26, 108, 140) ;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+.more{
+    display: none;
+    font-size: 12px;
+}
+
+.tour-carousel-title{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 865px) {
+    .tour-carousel-title{
+        font-size: 22px;
+    }
+    .carousel-text{
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .more{
+        display: block;
+    }
+}
+@media screen and (max-width: 550px) {
+    .tour-carousel-title{
+        font-size: 20px;
+    }
+    .carousel-text{
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .tour-carousel-title{
+        font-size: 18px;
+        margin-bottom: 1em;
+    }
+    .tour-text{
+        display: none;
+    }
+    
+}
