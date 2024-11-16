@@ -25,6 +25,25 @@ img{
     color: white;
 }
 
+.returnTop{
+    height: 16vh;
+    background-color: #1B3840;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.arrow_wrapper{
+    padding: 4% 0;
+    text-align: center;
+    height: 40%;
+}
+
+.footer_arrow_top{
+    height: 100%;
+}
+
+
 @media screen and (max-width: 865px) {
     .d-block{
         height: 100vh;
