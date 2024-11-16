@@ -12,8 +12,16 @@
     color: white;
 }
 
+.jobTitle{
+    font-style: italic;
+}
+
 .tour-text{
     color: white;
+}
+
+.carousel_button{
+margin: 2% 0;
 }
 
 @media screen and (max-width: 865px) {
