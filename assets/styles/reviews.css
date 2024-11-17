@@ -13,6 +13,10 @@ img{
     color: white;
 }
 
+.review-textbox{
+        background-color: rgba(13, 31, 57, 0.488);
+}
+
 .jobTitle{
     font-style: italic;
 }
