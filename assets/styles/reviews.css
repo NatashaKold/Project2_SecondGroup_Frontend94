@@ -60,7 +60,6 @@ img{
 .contacts{
     display: flex;
     flex-direction: column;
-    width: 20%;
     padding-left: 5%;
 }
 
@@ -99,6 +98,11 @@ img{
     border-radius: 5px;
 }
 
+.footer_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 865px) {
     .d-block{
         height: 100vh;
@@ -112,6 +116,20 @@ img{
         font-size: 14px;
      }
 }
+
+@media screen and (max-width: 750px) {
+.footer_container{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    }
+
+.contact_us{
+    align-items: center; 
+    padding-left: 5%;
+}
+}
+
 @media screen and (max-width: 550px) {
     .carousel-text{
         font-size: 12px;
