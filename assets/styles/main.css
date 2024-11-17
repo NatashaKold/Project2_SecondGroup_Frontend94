@@ -2,14 +2,51 @@
     color: black;
 }
 
+img{
+    object-fit: cover;
+}
+
+.tour-textbox{
+    background-color: rgba(14, 57, 14, 0.488);
+}
+
 .more{
     display: none;
     font-size: 12px;
 }
 
 .tour-carousel-title{
-    font-size: 32px;
+    font-size: 40px;
+    color: white;
 }
+
+.jobTitle{
+    font-style: italic;
+}
+
+.tour-text{
+    color: white;
+}
+
+.reviews-title{
+margin: 4% 0 0;
+place-self: center;
+font-size: 36px;
+font-weight: bold;
+}
+
+.review-textbox{
+    top: 5%;
+}
+
+.carousel_button{
+margin: 2% 0;
+padding: 2%;
+border-radius: 5px;
+background-color: #333333;
+color: white;
+}
+
 
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
@@ -26,6 +63,9 @@
     .more{
         display: block;
     }
+    .reviews-title{
+    font-size: 22px;
+    }
 }
 @media screen and (max-width: 550px) {
     .tour-carousel-title{
@@ -33,6 +73,9 @@
     }
     .carousel-text{
         -webkit-line-clamp: 3;
+    }
+    .reviews-title{
+    font-size: 20px;
     }
 }
 
@@ -44,5 +87,7 @@
     .tour-text{
         display: none;
     }
-    
+    .reviews-title{
+    font-size: 18px;
+    }
 }
