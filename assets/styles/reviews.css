@@ -61,6 +61,15 @@ img{
     align-content: center;
 }
 
+.name{
+    font-family: "Square Peg", cursive;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    color: #1e9966;
+}
+
 .contacts{
     display: flex;
     flex-direction: column;
