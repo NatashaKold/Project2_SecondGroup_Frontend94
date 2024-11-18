@@ -24,6 +24,7 @@
 .card{
     max-width: 300px;
     border: 1px solid rgb(5, 67, 84);
+    border-radius: 20px;
     background-color: white;
     padding: 2%;
     margin-top: 5%;
@@ -56,4 +57,5 @@ margin-top: 10px;
 background-color: rgb(3, 76, 52);
 padding: 4% 6%;
 color: white;
+border-radius: 10px;
 }
