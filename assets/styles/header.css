@@ -6,7 +6,9 @@
 
 
 
-.off-screen-menu{
+
+
+/*.off-screen-menu{
     background-color: #1B3840;
     color: white;
     height: 100vh;
@@ -71,4 +73,4 @@ nav{
 .ham-menu.active span:nth-child(3){
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
-}
+}*/
