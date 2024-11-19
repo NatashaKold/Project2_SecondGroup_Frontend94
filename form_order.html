@@ -9,6 +9,89 @@
     <link rel="stylesheet" href="./assets/styles/form_order.css">
 </head>
 <body>
-    
+    <main class="order-form">
+        <div class="order-form_items">
+            <div class="order-items_one">
+                <label for="name"></label>
+                    <input class="name_order" 
+                            type="text" id="name" 
+                            name="name" required 
+                            placeholder="Имя">
+                <label for="email"></label>
+                    <input class="phone-number_order" 
+                            type="text" id="phone-number" 
+                            name="phone-number" required 
+                            placeholder="Номер телефона">
+                <textarea 
+                    class="wishes"
+                    name="YourMessage" 
+                    id="contact_us_message" 
+                    rows="5" cols="30" 
+                    placeholder="Пожелания" 
+                    tabindex="1">
+                </textarea>
+            </div>
+            <div class="order-items_two">
+                <img src="/Project2_SecondGroup_Frontend94/assets/images/lake.png" alt="lake">
+                <button class="order-button">Заказать тур</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="returnTop">
+            <div class="arrow_wrapper">
+                <a href="#header"><img src="./assets/images/footer_arrow_top.svg" class="footer_arrow_top" alt="arrow up"></a>
+            </div>
+        </div> 
+        <div class="footer_container">
+            <div class="logo-name">
+                <div class="logoWrapper">
+                    <img src="./assets/images/logo_Green-Path.svg" alt="Green Path logo">
+                </div>
+                <p class="name">Green Path</p>
+            </div>
+            <div class="contacts">
+                <p class="footer_title">Наши Контакты</p>
+                <div class="contacts_item">
+                    <div>
+                        <img src="./assets/images/location_icon.svg" alt="Icon symbolising location">
+                    </div>  
+                    <p class="location">Location</p>
+                </div>
+                <div class="contacts_item">
+                    <div>
+                        <img src="./assets/images/email_icon.svg" alt="E-mail icon">
+                    </div>
+                    <p class="e-mail">E-mail</p>
+                </div>
+                <div class="contacts_item">
+                    <div>
+                        <img src="./assets/images/phone_icon.svg" alt="Phone icon">
+                    </div>
+                    <p class="phone">Phone</p>
+                </div>
+                <div class="socialMedia">
+                    <a href=""><img src="./assets/images/telegram_icon.svg" alt="telegram icon"></a>
+                    <a href=""><img src="./assets/images/insta_icon.svg" alt="instagram icon"></a>
+                    <a href=""><img src="./assets/images/youtube_icon.svg" alt="youtube icon"></a>
+                </div>
+            </div>
+            <div class="contact_us">
+                <p class="footer_title">Напишите нам</p>
+                <form class="contact_us_form" action="" method="post">
+                    <div>
+                        <input type="email" class="email_input" placeholder="Введите ваш e-mail" id="userEmail" tabindex="0">
+                    </div>
+                    <div>
+                        <textarea name="YourMessage" id="contact_us_message" rows="5" cols="30" placeholder="Введите сообщение" tabindex="1"></textarea>
+                    </div>
+                    <div>
+                        <button class="send_button" tabindex="2">ОТПРАВИТЬ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
