@@ -52,6 +52,7 @@ background-color: #333333;
 color: white;
 }
 
+<<<<<<< HEAD
 
 .returnTop{
     height: 16vh;
@@ -165,6 +166,8 @@ color: white;
     justify-content: center;
     gap: 20px;
 }
+=======
+>>>>>>> main
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
         font-size: 22px;
@@ -182,19 +185,6 @@ color: white;
     }
     .reviews-title{
     font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .footer_container{
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-        }
-    
-    .contact_us{
-        align-items: center; 
-        padding-left: 5%;
     }
 }
 
@@ -220,8 +210,5 @@ color: white;
     }
     .reviews-title{
     font-size: 18px;
-    }
-    .footer_title{
-        font-size: 1rem;
     }
 }

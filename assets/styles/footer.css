@@ -1,0 +1,106 @@
+
+.returnTop{
+    height: 16vh;
+    background-color: #1B3840;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.arrow_wrapper{
+    padding: 4% 0;
+    text-align: center;
+    height: 40%;
+}
+
+.footer_arrow_top{
+    height: 100%;
+}
+
+.footer_container{
+    padding: 5%;
+    background-color: #13253F;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.logo-name{
+    display: flex;
+    align-content: center;
+}
+
+.name{
+    font-family: "Square Peg", cursive;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    color: #1e9966;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.contacts_item{
+    display: flex;
+    gap: 10px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 10px;
+}
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_us_form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.email_input{
+    width: 100%;
+    padding: 4% 0;
+}
+
+.send_button{
+    background-color: red;
+    color: white;
+    padding: 5% 16%;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.footer_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+    .footer_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        }
+    
+    .contact_us{
+        align-items: center; 
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer_title{
+        font-size: 1rem;
+    }
+}
