@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .aboutUs_text{
@@ -64,86 +64,6 @@ background-color: #333333;
 color: white;
 }
 
-<<<<<<< HEAD
-
-.returnTop{
-    height: 16vh;
-    background-color: #1B3840;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
-.arrow_wrapper{
-    padding: 4% 0;
-    text-align: center;
-    height: 40%;
-}
-
-.footer_arrow_top{
-    height: 100%;
-}
-
-.footer_container{
-    padding: 5%;
-    background-color: #13253F;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    gap: 5%;
-}
-
-.logo-name{
-    display: flex;
-    align-content: center;
-}
-
-.contacts{
-    display: flex;
-    flex-direction: column;
-    padding-left: 5%;
-}
-
-.contacts_item{
-    display: flex;
-    gap: 10px;
-}
-
-.socialMedia{
-    display: flex;
-    gap: 10px;
-}
-
-.contact_us{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.contact_us_form{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.email_input{
-    width: 100%;
-    padding: 4% 0;
-}
-
-.send_button{
-    background-color: red;
-    color: white;
-    padding: 5% 16%;
-    align-content: center;
-    border-radius: 5px;
-}
-
-.footer_title{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 .subscription_container{
     display: flex;
     flex-direction: column;
@@ -178,8 +98,6 @@ color: white;
     justify-content: center;
     gap: 20px;
 }
-=======
->>>>>>> main
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
         font-size: 22px;
@@ -187,6 +105,7 @@ color: white;
     .carousel-text{
         font-size: 14px;
         display: -webkit-box;
+        line-clamp: 5;
         -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
         overflow: hidden;
@@ -205,6 +124,7 @@ color: white;
         font-size: 20px;
     }
     .carousel-text{
+        line-clamp: 3;
         -webkit-line-clamp: 3;
     }
     .reviews-title{
