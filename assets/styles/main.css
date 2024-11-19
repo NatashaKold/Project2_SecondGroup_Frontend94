@@ -131,7 +131,40 @@ color: white;
     font-weight: bold;
 }
 
-
+.subscription_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/Project2_SecondGroup_Frontend94/assets/images/mountains-river.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.subscription_title{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.newsletter{
+    color: white;
+    background-color: rgb(241, 5, 5);
+    border: none;
+    height: 60px;
+    width: 220px;
+    border-radius: 5px;
+}
+.email_newsletter{
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    width: 480px;
+    text-align: center;
+}
+.form_newsletter{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
         font-size: 22px;
