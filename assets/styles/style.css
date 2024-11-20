@@ -6,6 +6,7 @@
 
 button{
     box-shadow: none;
+    border: none;
 }
 
 button:hover{
