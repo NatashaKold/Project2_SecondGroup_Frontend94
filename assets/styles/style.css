@@ -6,6 +6,7 @@
 
 button{
     box-shadow: none;
+    border: none;
 }
 
 button:hover{
@@ -26,4 +27,11 @@ a:visited{
 
 a:hover{
     text-decoration: none;
+}
+
+p, div{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
