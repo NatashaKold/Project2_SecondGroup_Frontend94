@@ -12,6 +12,7 @@
     align-self: center;
     font-weight: 600;
     color: white;
+    padding: 5% 0 0;
 }
 
 .card-container{
@@ -30,6 +31,7 @@
     background-color: rgba(255, 255, 255, 0.569);
     padding: 2%;
     margin: 4% 0;
+    position: relative;
 }
 
 .card-img{
@@ -60,4 +62,15 @@ background-color: #333333;
 padding: 4% 6%;
 color: white;
 border-radius: 5px;
+}
+
+.buttonContainer{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+@media screen and (min-width: 1500px) {
+    .main-title{
+        font-size: 50px;
+    }
 }
