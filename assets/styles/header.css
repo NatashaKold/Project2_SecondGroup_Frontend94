@@ -2,13 +2,18 @@
 .nav-conteiner{
     display: flex;
     background-color: #1B3840;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .logtex{
 display: flex;
+justify-content:center;
+align-items: flex-end;
+
+
 
 }
 .logo-name h1{
