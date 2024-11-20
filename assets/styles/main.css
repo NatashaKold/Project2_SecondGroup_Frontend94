@@ -71,7 +71,7 @@ color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(/Project2_SecondGroup_Frontend94/assets/images/mountains-river.jpg);
+    background-image: url(../images/mountains-river.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
