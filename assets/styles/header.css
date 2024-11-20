@@ -2,14 +2,19 @@
 .nav-conteiner{
     display: flex;
     background-color: #1B3840;
-  
+    
 }
 
+
+
 .logtex{
-    display: flex;
-    
-    
-    
+display: flex;
+
+}
+.logo-name h1{
+color: white;
+font-size: 30px;
+
 }
 .nav-icons{
 display: flex;
@@ -30,6 +35,8 @@ height: 25px;
 }
 .burger-menu{
     display: flex;
+    
+    
 }
 
 #menu-toggle{
@@ -85,7 +92,8 @@ height: 25px;
     list-style: none;
     text-align: center;
     background-color: #1B3840;
-    transition-duration: 250ms;
+    /*transition-duration: 250ms;*/
+    transition: 0.15s;
 }
 
 .menu-item{
@@ -95,7 +103,8 @@ height: 25px;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: 250ms;
+    /*transition-duration: 250ms;*/
+    transition: 0.15s;
 }
 
 .menu-item:hover{
