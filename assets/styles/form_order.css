@@ -1,0 +1,50 @@
+.order-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/forest-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1034px;
+}
+.order-form_items{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+.order-items_two{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+.order-items_one{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+.order-button{
+    color: white;
+    background-color: #333333;
+    border: none;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+}
+.name_order{
+    height: 70px;
+    width: 300px;
+    border: none;
+}
+.phone-number_order{
+    height: 70px;
+    width: 300px;
+    border: none;
+}
+.wishes{
+    height: 200px;
+    border: none;
+}
+
