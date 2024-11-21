@@ -102,13 +102,7 @@ p{
     }
 
     .footer_title{
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    .name{
-        font-size: 18px;
+        font-size: 1.2rem;
     }
 }
 
@@ -125,8 +119,3 @@ p{
     }
 }
 
-@media screen and (max-width: 450px) {
-    .footer_title{
-        font-size: 1rem;
-    }
-}
