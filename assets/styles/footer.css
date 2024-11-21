@@ -88,6 +88,10 @@
     font-weight: bold;
 }
 
+p{
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 970px) {
     .name{
         font-size: 20px;
