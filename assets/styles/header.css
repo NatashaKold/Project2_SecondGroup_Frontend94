@@ -6,7 +6,9 @@
     align-items: center;
 }
 
-
+.spacer {
+    flex-grow: 1; /*  Этот элемент будет занимать всё свободное пространство */
+  }
 
 .logtex{
 display: flex;
