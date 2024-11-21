@@ -86,7 +86,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
     .name{
         font-size: 20px;
     }
@@ -97,6 +97,12 @@
 
     .footer_title{
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .name{
+        font-size: 18px;
     }
 }
 
