@@ -88,7 +88,15 @@
 
 @media screen and (max-width: 768px) {
     .name{
-        font-size: 28px;
+        font-size: 20px;
+    }
+
+    .logo_img{
+        width: 85%;
+    }
+
+    .footer_title{
+        font-size: 1rem;
     }
 }
 
