@@ -10,14 +10,16 @@
 display: flex;
 }
 
-
+.nav-p{
+    margin-top: 8px;
+}
 
 
 
 
 .nav-icons{
 display: flex;
-
+margin-top: 30px;
 
 
 
