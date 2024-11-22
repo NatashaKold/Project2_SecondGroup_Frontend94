@@ -4,7 +4,8 @@
 }
 .main-container{
     display: flex;
-    background-color: #1B3840;
+    background-color: #285E65;
+    
 }
 
 .travel-name{
@@ -16,11 +17,18 @@
 
 .about-tour{
     display: flex;
+    flex-direction: column;
 }
 .about-tour p{
     color: white;
 }
 
 .about-tour li{
+    color: white;
+}
+.order-tour{
+    height: 60px;
+    width: 221px;
+    background-color: #333333;
     color: white;
 }
