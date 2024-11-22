@@ -91,7 +91,11 @@ nav a:hover{
 .sidebar a{
     width: 100%;
 }
-
+@media (max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+}
 
 /*nav li:first-child{
     margin-right: 42%;
