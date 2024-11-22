@@ -74,7 +74,7 @@ nav a{
 nav a:hover{
     color: goldenrod;
 }
-nav img{
+.logo-link{
     display: flex;
     width: 79px;
     height: 79px;
