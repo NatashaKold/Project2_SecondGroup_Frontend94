@@ -17,6 +17,7 @@
 .logtex{
     display: flex;
     margin-left: 4vh;
+    white-space: nowrap;
 }
 .nav-p{
     display: flex;
@@ -26,7 +27,8 @@
 .navbar{
     display: flex;
     margin-left: 80vh;
-    white-space: nowrap;
+    
+    flex-wrap: nowrap;
 }
 
 .navbar a{
@@ -34,13 +36,17 @@
     display: flex;
     margin-right: 20px;
     color: white;
+    white-space: nowrap;
+    flex-wrap: nowrap;
 }
 
 .navbar a:hover{
     text-decoration: underline;
 }
 
+@media screen and (min-width: 900px){
 
+}
 
 
 /*.burger-menu{
