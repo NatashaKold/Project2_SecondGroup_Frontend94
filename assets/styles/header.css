@@ -10,47 +10,29 @@ body{
 
 
 
-
-/*.logtex{
-    display: flex;
-    margin-left: 4vh;
-    white-space: nowrap;
-    
-}
-.nav-p{
-    display: flex;
-    font-family: "Montserrat Alternates", sans-serif;
-    color: white;
-
-}
-
-.nav-p p{
-    margin-top: 20px;
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    letter-spacing:0.1rem;
-}*/
-
-/*.navbar{
-    display: flex;
-    margin-left: 73vh;
-    align-items: center;
-    flex-wrap: nowrap;}
-    */
-
 nav{
     background-color: #1B3840;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     display: flex;
+
 }
 
 .logo-link img{
     display: flex;
     width: 79px;
     height: 79px;
-   
+}
+
+.logo-name{
+display: flex;
 
 }
+.logo-name a{
+    font-size: 25px;
+font-family: "Montserrat Alternates", sans-serif;
+}
+
+
 nav ul{
     width: 100%;
     list-style: none;
@@ -69,8 +51,10 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
+    
     color: white;
     font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
     transition: 0.15s;
     white-space: nowrap;
 }
@@ -79,7 +63,7 @@ nav a:hover{
     color: goldenrod;
 }
 
-nav li:first-child{
+/*nav li:first-child{
     margin-right: 42%;
 }
 
