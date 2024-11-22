@@ -9,12 +9,11 @@
     
 }
 
-.travel-name{
-    display: flex;
-}
-.travel-name h2{
+
+h2{
     color: white;
     white-space: nowrap;
+
 }
 
 .about-tour{
@@ -41,13 +40,16 @@
     display: flex;
     margin-top: 60px;
     flex-direction: column;
-   
+    width: 100%;
+    
 }
 .large-img{
-    width: 738px;
-    height: 542px;
+  
+    max-width: 100%;
+    height: auto;
 }
 .small-img{
-    width: 348px;
-    height: 312px;
+   
+    max-width: 100%;
+    height: auto;
 }
