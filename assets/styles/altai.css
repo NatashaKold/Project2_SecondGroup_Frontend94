@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    background-color: #1B3840;
+}
+
+.travel-name{
+    display: flex;
+}
+.travel-name p{
+    color: white;
+}
+
+.about-tour{
+    display: flex;
+}
+.about-tour p{
+    color: white;
+}
+
+.about-tour li{
+    color: white;
+}
