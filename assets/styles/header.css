@@ -14,7 +14,6 @@ nav{
     background-color: #1B3840;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-
 }
 
 .logo-link img{
@@ -26,7 +25,6 @@ nav{
 
 .logo-name{
 display: flex;
-
 }
 
 .logo-name p{
@@ -36,8 +34,6 @@ display: flex;
     color: white;
     margin-bottom: 0;
     align-self: center;
-   
-
 }
 
 

@@ -5,6 +5,7 @@
 .main-container{
     display: flex;
     background-color: #285E65;
+    width: 100%;
     
 }
 
@@ -13,6 +14,7 @@
 }
 .travel-name h2{
     color: white;
+    white-space: nowrap;
 }
 
 .about-tour{
@@ -37,4 +39,15 @@
 
 .images-container{
     display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+   
+}
+.large-img{
+    width: 738px;
+    height: 542px;
+}
+.small-img{
+    width: 348px;
+    height: 312px;
 }
