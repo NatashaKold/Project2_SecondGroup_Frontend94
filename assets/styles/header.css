@@ -21,15 +21,19 @@ nav{
     display: flex;
     width: 79px;
     height: 79px;
+    margin-left: 10%;
 }
 
 .logo-name{
 display: flex;
-
 }
+
 .logo-name a{
     font-size: 25px;
-font-family: "Montserrat Alternates", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-left: 0;
+    
+
 }
 
 
@@ -39,6 +43,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 0;
 }
 
 nav li{
@@ -51,7 +56,6 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    
     color: white;
     font-family: "Montserrat Alternates", sans-serif;
     font-size: 17px;
