@@ -24,12 +24,20 @@
     display: flex;
     font-family: "Montserrat Alternates", sans-serif;
     color: white;
+
+}
+
+.nav-p p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    letter-spacing:0.1rem;
 }
 
 .navbar{
     display: flex;
     margin-left: 73vh;
-    
+    align-items: center;
     flex-wrap: nowrap;
 }
 
