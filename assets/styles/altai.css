@@ -67,3 +67,13 @@ h2{
     text-align: center;
 }
 
+.order-btn{
+    width: 221px;
+    height: 60px;
+    color: #fff;
+    background-color: #333333;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    cursor: pointer;
+}
