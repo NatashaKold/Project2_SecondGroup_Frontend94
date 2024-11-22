@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body{
+    min-height: 100vh;
+}
 
 
 .nav-conteiner{
@@ -34,16 +37,44 @@
     letter-spacing:0.1rem;
 }
 
-.navbar{
+/*.navbar{
     display: flex;
     margin-left: 73vh;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;}
+    */
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.navbar a{
+nav li{
+    height: 100%;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 20px;
     text-decoration: none;
     display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    transition: 0.15s;
+}
+
+nav a:hover{
+    color: goldenrod;
+}
+
+/*.navbar a{
+    text-decoration: none;
+    display: flex;
+    
     margin-right: 20px;
     color: white;
     white-space: nowrap;
