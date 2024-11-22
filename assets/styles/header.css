@@ -71,6 +71,10 @@ nav a:hover{
     color: goldenrod;
 }
 
+nav li:first-child{
+    margin-right: auto;
+}
+
 /*.navbar a{
     text-decoration: none;
     display: flex;
