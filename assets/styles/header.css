@@ -18,15 +18,17 @@
     display: flex;
     margin-left: 4vh;
     white-space: nowrap;
+    
 }
 .nav-p{
     display: flex;
-    
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
 }
 
 .navbar{
     display: flex;
-    margin-left: 80vh;
+    margin-left: 73vh;
     
     flex-wrap: nowrap;
 }
@@ -38,6 +40,7 @@
     color: white;
     white-space: nowrap;
     flex-wrap: nowrap;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 .navbar a:hover{
