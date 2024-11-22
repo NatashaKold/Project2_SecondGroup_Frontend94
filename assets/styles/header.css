@@ -2,6 +2,8 @@
 .nav-conteiner{
     display: flex;
     background-color: #1B3840; 
+    width: 100%;
+    height: 10vh;
 }
 
 
