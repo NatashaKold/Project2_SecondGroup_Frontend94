@@ -32,10 +32,9 @@
 }
 
 .name{
-    font-family: "Inconsalata", sans-serif;
-    font-size: 32px;
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
-    letter-spacing: 0.2em;
     padding: 10px 0;
     color: white;
 }
