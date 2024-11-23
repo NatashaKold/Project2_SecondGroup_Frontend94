@@ -18,47 +18,47 @@
 <body>
     
 <header id="header">
-    <div class="nav-conteiner">
-        <div class="logtex">
-        <div class="nav-logo">
-            <img src="assets/images/logo_Green-Path.svg" alt="website-logo"/>
-        </div>
-        <div class="logo-name">
-            <h1>GreenPath</h1>
-        </div>
-    </div>
+   
 
-<div class="nav-icons">
-    <div class="nav-user">
-        <img src="assets/images/User.svg" alt="user-icon"/>
-    </div>
-
-    <div class="nav-cart">
-        <img src="assets/images/Cart.svg" alt="cart-icon"/>
-    </div>
-</div>
-
-
-    <div class="burger-menu">
-
-<input id="menu-toggle" type="checkbox">
-<label class="menu-btn" for="menu-toggle">
-    <span></span>
-</label>
-
-<ul class="menu-box">
-    <li><a href="index.html" class="menu-item">О Нас</a></li>
-    <li><a href="catalog.html" class="menu-item">Наши туры</a></li>
-    <li><a href="reviews.html" class="menu-item">Отзывы</a></li>
-    <li><a href="form_order.html" class="menu-item">Забронировать</a></li>
-    <li><a href="#footer" class="menu-item">Контакты</a></li>
-</ul>
-</div>  
-
-
-
-</div>
-
+<nav>
+        <div class="logo-link">
+            <a href="index.html"><img src="assets/images/logo_Green-Path.svg" alt="Green-Path-logo"></a>
+            </div>
+     
+     
+            <div class="logo-name">
+           <p>GreenPath</p>
+            </div>
+     
+     
+            <ul class="sidebar">
+            <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li> <a href="index.html">О Нас</a></li>
+            <li> <a href="catalog.html">Наши туры</a></li>
+            <li> <a href="reviews.html">Отзывы</a></li>
+            <li> <a href="form_order.html">Забронировать</a></li>
+            <li> <a href="#footer">Контакты</a></li>
+        </ul>
+        <ul> 
+            <li class="hideOnMobile"> <a href="index.html">О Нас</a></li>
+            <li class="hideOnMobile"> <a href="catalog.html">Наши туры</a></li>
+            <li class="hideOnMobile"> <a href="reviews.html">Отзывы</a></li>
+            <li class="hideOnMobile"> <a href="form_order.html">Забронировать</a></li>
+            <li class="hideOnMobile"> <a href="footer">Контакты</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+        </nav>
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    
 
 </header>
 
@@ -241,7 +241,9 @@
         </a>
         <div class="contacts">
             <p class="footer_title">Наши Контакты</p>
-            <div class="contacts_item">
+
+            <!-- В КОММЕНТАРИИ НИЖЕ КОД НА СЛУЧАЙ ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ -->
+            <!-- <div class="contacts_item">
                 <div>
                     <img src="./assets/images/location_icon.svg" alt="Icon symbolising location">
                 </div>  
@@ -252,18 +254,22 @@
                     <img src="./assets/images/email_icon.svg" alt="E-mail icon">
                 </div>
                 <p class="e-mail">E-mail</p>
-            </div>
+            </div> -->
+
             <div class="contacts_item">
                 <div>
                     <img src="./assets/images/phone_icon.svg" alt="Phone icon">
                 </div>
-                <p class="phone">Phone</p>
+                <p class="phone">+7 (915) 704 6309</p>
             </div>
-            <div class="socialMedia">
+
+            <!-- В КОММЕНТАРИИ НИЖЕ КОД НА СЛУЧАЙ ПОЯВЛЕНИЯ СОЦСЕТЕЙ -->
+            <!-- <div class="socialMedia">
                 <a href=""><img src="./assets/images/telegram_icon.svg" alt="telegram icon"></a>
                 <a href=""><img src="./assets/images/insta_icon.svg" alt="instagram icon"></a>
                 <a href=""><img src="./assets/images/youtube_icon.svg" alt="youtube icon"></a>
-            </div>
+            </div> -->
+            
         </div>
         <div class="contact_us">
             <p class="footer_title">Напишите нам</p>
