@@ -64,3 +64,17 @@ padding: 30px;
     border: none;
 }
 
+@media screen and (max-width: 550px){
+    .reviewContainer {
+        align-items: center;
+}
+    .reviewName_order{
+        width: 80vw;
+    }
+    .reviewCity_order{
+        width: 80vw;
+    }
+    .reviewClient_order{
+        width: 80vw;
+    }
+}
