@@ -16,9 +16,101 @@
 
 <body>
 
-<header></header>
-<main></main>
-<footer></footer>
+<header>
+   
+</header>
+
+<main>
+    
+
+    
+    <div class="reviewContainer">
+        <div class="reviewLakePic">
+            <img src="assets/images/lake.png" alt="Фотография озера">
+        </div>
+        <div class="reviewReview">
+    <div class="reviewName">
+        <label for="reviewName"><b>Имя</b></label>
+        <input type="text" id="reviewName">
+    </div>
+    <div class="reviewCity">
+        <label for="reviewCity"><b>Город</b></label>
+        <input type="text" id="reviewCity">
+    </div>
+    <div class="reviewClient">
+        <label for="reviewClient"><b>Отзыв</b></label>
+            <div><textarea rows="5"></textarea></div>
+    </div>
+    <div class="reviewButton">
+        <button>Отправить</button>
+        
+    </div>
+</div>
+</div>
+</main>
+<footer>
+    <div class="returnTop">
+        <div class="arrow_wrapper">
+            <a href="#header"><img src="./assets/images/footer_arrow_top.svg" class="footer_arrow_top" alt="arrow up"></a>
+        </div>
+    </div> 
+    <div class="footer_container" id="footer">
+        <a href="index.html">
+        <div class="logo-name">
+            <div class="logoWrapper">
+                <img src="./assets/images/logo_Green-Path.svg" alt="GreenPath logo" class="logo_img">
+            </div>
+            <p class="name">GreenPath</p>
+        </div>
+        </a>
+        <div class="contacts">
+            <p class="footer_title">Наши Контакты</p>
+            
+            <!-- В КОММЕНТАРИИ НИЖЕ КОД НА СЛУЧАЙ ДОПОЛНИТЕЛЬНЫХ КОНТАКТОВ -->
+            <!-- <div class="contacts_item">
+                <div>
+                    <img src="./assets/images/location_icon.svg" alt="Icon symbolising location">
+                </div>  
+                <p class="location">Location</p>
+            </div>
+            <div class="contacts_item">
+                <div>
+                    <img src="./assets/images/email_icon.svg" alt="E-mail icon">
+                </div>
+                <p class="e-mail">E-mail</p>
+            </div> -->
+
+            <div class="contacts_item">
+                <div>
+                    <img src="./assets/images/phone_icon.svg" alt="Phone icon">
+                </div>
+                <p class="phone">+7 (915) 704 6309</p>
+            </div>
+
+            <!-- В КОММЕНТАРИИ НИЖЕ КОД НА СЛУЧАЙ ПОЯВЛЕНИЯ СОЦСЕТЕЙ -->
+            <!-- <div class="socialMedia">
+                <a href=""><img src="./assets/images/telegram_icon.svg" alt="telegram icon"></a>
+                <a href=""><img src="./assets/images/insta_icon.svg" alt="instagram icon"></a>
+                <a href=""><img src="./assets/images/youtube_icon.svg" alt="youtube icon"></a>
+            </div> -->
+            
+        </div>
+        <div class="contact_us">
+            <p class="footer_title">Напишите нам</p>
+            <form class="contact_us_form" action="" method="post">
+                <div>
+                    <input type="email" class="email_input" placeholder="Введите ваш e-mail" id="userEmail" tabindex="0">
+                </div>
+                <div>
+                    <textarea name="YourMessage" id="contact_us_message" rows="5" cols="30" tabindex="1" placeholder="Введите сообщение"></textarea>
+                </div>
+                <div>
+                    <button class="send_button" tabindex="2">ОТПРАВИТЬ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </footer>
     
 </body>
 </html>

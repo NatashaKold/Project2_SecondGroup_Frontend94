@@ -32,23 +32,25 @@
 }
 
 .name{
-    font-family: "Square Peg", cursive;
+    font-family: "Inconsalata", sans-serif;
     font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 0.1em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
     padding: 10px 0;
-    color: #1e9966;
+    color: white;
 }
 
 .contacts{
     display: flex;
     flex-direction: column;
     padding-left: 5%;
+    gap: 10px;
 }
 
 .contacts_item{
     display: flex;
     gap: 10px;
+    line-height: 1.5;
 }
 
 .socialMedia{
@@ -86,6 +88,24 @@
     font-weight: bold;
 }
 
+p{
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 970px) {
+    .name{
+        font-size: 20px;
+    }
+
+    .logo_img{
+        width: 85%;
+    }
+
+    .footer_title{
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 750px) {
     .footer_container{
         flex-direction: column;
@@ -99,8 +119,3 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .footer_title{
-        font-size: 1rem;
-    }
-}
