@@ -1,3 +1,16 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.aboutUs_text{
+    text-align: center;
+}
+
+
 .carousel-caption {
     color: black;
 }
