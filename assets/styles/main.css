@@ -52,7 +52,6 @@ background-color: #333333;
 color: white;
 }
 
-<<<<<<< HEAD
 
 .returnTop{
     height: 16vh;
@@ -159,15 +158,13 @@ color: white;
     border-radius: 5px;
     height: 60px;
     width: 480px;
-    text-align: center;
+    padding-left: 1rem;
 }
 .form_newsletter{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-=======
->>>>>>> main
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
         font-size: 22px;
