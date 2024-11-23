@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reviewLakePic{
+  position: relative;
+}
+
+.reviewContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+       }
+.reviewName{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.reviewCity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.reviewClient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.reviewButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
