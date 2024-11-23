@@ -1,35 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/lake.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1034px;
 }
-.reviewLakePic{
-  position: relative;
-}
-
 .reviewContainer{
     display: flex;
     flex-direction: column;
-    text-align: center;
-       }
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 100%;
+    height: 70%;
+    }
+
 .reviewName{
     display: flex;
 flex-direction: column;
 align-items: center;
+padding: 30px;
 }
 
 .reviewCity{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
     }
 .reviewClient{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
     }
 .reviewButton{
     display: flex;
     flex-direction: column;
     align-items: center;
-   }
+    }
+.reviewButton_order{
+    color: white;
+    background-color: #333333;
+    border: none;
+    height: 40px;
+    width: 220px;
+    border-radius: 5px;
+}
+.reviewName_order{
+    height: 70px;
+    width: 500px;
+    border: none;
+}
+.reviewCity_order{
+    height: 70px;
+    width: 500px;
+    border: none;
+}
+.reviewClient_order{
+    height: 200px;
+    width: 500px;
+    border: none;
+}
+
+@media screen and (max-width: 550px){
+    .reviewContainer {
+        align-items: center;
+}
+    .reviewName_order{
+        width: 80vw;
+    }
+    .reviewCity_order{
+        width: 80vw;
+    }
+    .reviewClient_order{
+        width: 80vw;
+    }
+}

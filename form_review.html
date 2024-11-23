@@ -15,39 +15,77 @@
 </head>
 
 <body>
+    <header id="header">
 
-<header>
-   
-</header>
-
-<main>
-    
-
-    
-    <div class="reviewContainer">
-        <div class="reviewLakePic">
-            <img src="assets/images/lake.png" alt="Фотография озера">
-        </div>
-        <div class="reviewReview">
-    <div class="reviewName">
-        <label for="reviewName"><b>Имя</b></label>
-        <input type="text" id="reviewName">
-    </div>
-    <div class="reviewCity">
-        <label for="reviewCity"><b>Город</b></label>
-        <input type="text" id="reviewCity">
-    </div>
-    <div class="reviewClient">
-        <label for="reviewClient"><b>Отзыв</b></label>
-            <div><textarea rows="5"></textarea></div>
-    </div>
-    <div class="reviewButton">
-        <button>Отправить</button>
+        <nav>
+                <div class="logo-link">
+                    <a href="index.html"><img src="assets/images/logo_Green-Path.svg" alt="Green-Path-logo"></a>
+                    </div>
+            
+                    <div class="logo-name">
+                    <p>GreenPath</p>
+                    </div>
+            
+            
+                    <ul class="sidebar">
+                    <li onclick=hideSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li> <a href="index.html">О Нас</a></li>
+                    <li> <a href="catalog.html">Наши туры</a></li>
+                    <li> <a href="reviews.html">Отзывы</a></li>
+                    <li> <a href="form_order.html">Забронировать</a></li>
+                    <li> <a href="#footer">Контакты</a></li>
+                </ul>
+                <ul> 
+                    <li class="hideOnMobile"> <a href="index.html">О Нас</a></li>
+                    <li class="hideOnMobile"> <a href="catalog.html">Наши туры</a></li>
+                    <li class="hideOnMobile"> <a href="reviews.html">Отзывы</a></li>
+                    <li class="hideOnMobile"> <a href="form_order.html">Забронировать</a></li>
+                    <li class="hideOnMobile"> <a href="#footer">Контакты</a></li>
+                    <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+                </nav>
+                <script>
+                    function showSidebar(){
+                        const sidebar = document.querySelector('.sidebar')
+                        sidebar.style.display = 'flex'
+                    }
+                    function hideSidebar(){
+                        const sidebar = document.querySelector('.sidebar')
+                        sidebar.style.display = 'none'
+                    }
+                </script>
+            
         
+        </header>
+<main class="review">
+    <div class="reviewContainer">
+        <div class="reviewName">
+            <label for="reviewName"></label>
+            <input class="reviewName_order"
+                type="text" id="reviewName"
+                name="name" required
+                placeholder="Имя">
+        </div>
+        <div class="reviewCity">
+                <label for="reviewCity"></label>
+                <input class="reviewCity_order"
+                type="text" id="reviewCity"
+                name="name" required
+                placeholder="Город">
+        </div>
+        <div class="reviewClient">
+            <label for="reviewClient"></label>
+            <input class="reviewClient_order"
+            type="text" id="reviewClient"
+            name="name" required
+            placeholder="Отзыв">
+        </div>
+        <div class="reviewButton">
+                <button class="reviewButton_order">Отправить</button>
+        </div>
     </div>
-</div>
-</div>
 </main>
+
 <footer>
     <div class="returnTop">
         <div class="arrow_wrapper">
@@ -93,7 +131,7 @@
                 <a href=""><img src="./assets/images/insta_icon.svg" alt="instagram icon"></a>
                 <a href=""><img src="./assets/images/youtube_icon.svg" alt="youtube icon"></a>
             </div> -->
-            
+
         </div>
         <div class="contact_us">
             <p class="footer_title">Напишите нам</p>
