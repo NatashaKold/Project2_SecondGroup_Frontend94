@@ -179,6 +179,57 @@ color: white;
     gap: 20px;
 }
 
+@media screen and (max-width: 865px) {
+    .tour-carousel-title{
+        font-size: 22px;
+    }
+    .carousel-text{
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .more{
+        display: block;
+    }
+    .reviews-title{
+    font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tour-carousel-title{
+        font-size: 20px;
+    }
+    .carousel-text{
+        -webkit-line-clamp: 3;
+    }
+    .reviews-title{
+    font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .tour-carousel-title{
+        font-size: 18px;
+        margin-bottom: 1em;
+    }
+    .tour-text{
+        display: none;
+    }
+    .reviews-title{
+    font-size: 18px;
+    }
+    .order-items_one {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+
 .services_container{
     max-width: 1200;
     margin: 0 auto;
