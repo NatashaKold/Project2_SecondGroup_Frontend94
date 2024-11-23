@@ -331,6 +331,13 @@ gap: 20px;
             border-radius: 5px;
             padding: 15px;
         }
+        .newsletter{
+            flex: 1;
+            height: 70%;
+            width: 65%;
+            border-radius: 5px;
+            padding: 15px;
+        }
         .icons {
             flex-direction: column;
             align-items: center;
