@@ -179,12 +179,6 @@ color: white;
     gap: 20px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .services_container{
     max-width: 1200;
     margin: 0 auto;
