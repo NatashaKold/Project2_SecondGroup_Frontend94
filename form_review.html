@@ -15,19 +15,34 @@
 </head>
 
 <body>
-
-<header>
-   
-</header>
-
-<main>
-    
-
-    
+<main class="review">
     <div class="reviewContainer">
-        <div class="reviewLakePic">
-            <img src="assets/images/lake.png" alt="Фотография озера">
+        <div class="reviewName">
+            <label for="reviewName"></label>
+            <input class="reviewName_order"
+                type="text" id="reviewName"
+                name="name" required
+                placeholder="Имя">
         </div>
+        <div class="reviewCity">
+                <label for="reviewCity"></label>
+                <input class="reviewCity_order"
+                type="text" id="reviewCity"
+                name="name" required
+                placeholder="Город">
+        </div>
+        <div class="reviewClient">
+            <label for="reviewClient"></label>
+            <input class="reviewClient_order"
+            type="text" id="reviewClient"
+            name="name" required
+            placeholder="Отзыв">
+        </div>
+        <div class="reviewButton">
+                <button class="reviewButton_order">Отправить</button>
+        </div>
+
+      
         <div class="reviewReview">
     <div class="reviewName">
         <label for="reviewName"><b>Имя</b></label>
@@ -45,9 +60,8 @@
         <button>Отправить</button>
         
     </div>
-</div>
-</div>
 </main>
+
 <footer>
     <div class="returnTop">
         <div class="arrow_wrapper">

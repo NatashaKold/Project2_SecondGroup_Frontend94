@@ -215,6 +215,51 @@ color: white;
     }
 }
 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services_container{
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 5% 5%;
+   
+}
+.services{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+
+.servicesTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.icons{
+display: flex;
+padding: 2%;
+gap: 20px;
+
+}
+.icon{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 25%;
+gap: 20px;
+}
+.iconText{
+    text-align: center;
+    
+
 @media screen and (max-width: 450px){
     .form_newsletter {
         display: flex;
@@ -232,4 +277,5 @@ color: white;
         border-radius: 5px;
         padding: 15px;
     }
+
 }
