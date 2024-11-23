@@ -32,12 +32,18 @@
 }
 
 .name{
-    font-family: "Montserrat Alternates", sans-serif;
+    /*font-family: "Montserrat Alternates", sans-serif;
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0.1rem;
     padding: 10px 0;
+    color: white;*/
+    font-size: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-left: 0;
     color: white;
+    margin-bottom: 0;
+    align-self: center;
     
 }
 
