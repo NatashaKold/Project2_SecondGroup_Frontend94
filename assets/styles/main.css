@@ -178,7 +178,8 @@ color: white;
     justify-content: center;
     gap: 20px;
 }
-
+=======
+>>>>>>> main
 @media screen and (max-width: 865px) {
     .tour-carousel-title{
         font-size: 22px;
@@ -222,126 +223,4 @@ color: white;
     .reviews-title{
     font-size: 18px;
     }
-    .order-items_one {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
 }
-
-
-.services_container{
-    max-width: 1200;
-    margin: 0 auto;
-    padding: 5% 5%;
-   
-}
-.services{
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 50px;
-}
-
-.servicesTop{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-}
-
-.icons{
-display: flex;
-padding: 2%;
-gap: 20px;
-
-}
-.icon{
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 25%;
-gap: 20px;
-}
-.iconText{
-    text-align: center;
-}
-
-@media screen and (max-width: 865px) {
-        .tour-carousel-title{
-            font-size: 22px;
-        }
-        .carousel-text{
-            font-size: 14px;
-            display: -webkit-box;
-            -webkit-line-clamp: 5;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .more{
-            display: block;
-        }
-        .reviews-title{
-        font-size: 22px;
-        }
-    }
-    
-    @media screen and (max-width: 550px) {
-        .tour-carousel-title{
-            font-size: 20px;
-        }
-        .carousel-text{
-            -webkit-line-clamp: 3;
-        }
-        .reviews-title{
-        font-size: 20px;
-        }
-    }
-    
-    @media screen and (max-width: 450px) {
-        .tour-carousel-title{
-            font-size: 18px;
-            margin-bottom: 1em;
-        }
-        .tour-text{
-            display: none;
-        }
-        .reviews-title{
-        font-size: 18px;
-        }
-        .order-items_one {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        .form_newsletter {
-            display: flex;
-            gap: 20px;
-            flex-direction: column;
-            align-items: center;
-        }
-        h1 {
-            font-size: 1.5rem;
-        }
-        .email_newsletter{
-            flex: 1;
-            height: 70%;
-            width: 65%;
-            border-radius: 5px;
-            padding: 15px;
-        }
-        .newsletter{
-            flex: 1;
-            height: 70%;
-            width: 65%;
-            border-radius: 5px;
-            padding: 15px;
-        }
-        .icons {
-            flex-direction: column;
-            align-items: center;
-            gap: 50px;
-        }
-    }
-    
