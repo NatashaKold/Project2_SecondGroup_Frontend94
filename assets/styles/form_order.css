@@ -48,6 +48,8 @@
 .wishes{
     height: 200px;
     border: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 .returnTop{
