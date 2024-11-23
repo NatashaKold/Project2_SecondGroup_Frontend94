@@ -129,3 +129,20 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+@media screen and (max-width: 450px){
+    .order-form_items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-items_two{
+        display: flex;
+            flex-direction: column-reverse;
+            gap: 1rem;
+            align-items: center;
+    }
+    .image-order{
+    display: none;
+    }
+}
