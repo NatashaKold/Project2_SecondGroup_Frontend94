@@ -266,3 +266,28 @@ gap: 20px;
         align-items: center;
     }
 }
+@media screen and (max-width: 450px){
+    .form_newsletter {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .email_newsletter{
+        flex: 1;
+        height: 70%;
+        width: 65%;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    .newsletter{
+            flex: 1;
+            height: 70%;
+            width: 65%;
+            border-radius: 5px;
+            padding: 15px;
+    }
+}
