@@ -32,12 +32,11 @@
 }
 
 .name{
-
     font-size: 25px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     padding: 10px 0;
-    color: white;*/
+    color: white;
     margin-bottom: 0;
     align-self: center;
 }
@@ -72,9 +71,10 @@
     gap: 15px;
 }
 
-.email_input{
+.email_input, .message_input{
     width: 100%;
-    padding: 4% 0;
+    padding: 4% 2%;
+    box-sizing: border-box;
 }
 
 .send_button{

@@ -52,16 +52,22 @@ padding: 30px;
     height: 70px;
     width: 500px;
     border: none;
+    box-sizing: border-box;
+    padding: 20px;
 }
 .reviewCity_order{
     height: 70px;
     width: 500px;
     border: none;
-}
+    box-sizing: border-box;
+    padding: 20px;
+    }
 .reviewClient_order{
     height: 200px;
     width: 500px;
     border: none;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 @media screen and (max-width: 550px){
