@@ -4,6 +4,22 @@
     box-sizing: content-box;
 }
 
+@font-face{
+    font-family: "Montserrat Alternates";
+  src: url("./fonts/Montserrat/Montserrat_Alternates/MontserratAlternates-Black.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "Montserrat Bold";
+  src: url("./fonts/Montserrat/static/Montserrat-Bold.ttf");
+}
+
+
 button{
     box-shadow: none;
     border: none;
