@@ -64,12 +64,10 @@ border-radius: 5px;
 background-color: #333333;
 color: white;
 }
-
 .services_container{
     max-width: 1200;
     margin: 0 auto;
     padding: 5% 5%;
-   
 }
 .services{
 display: flex;
@@ -77,19 +75,15 @@ flex-direction: column;
 align-items: center;
 gap: 50px;
 }
-
 .servicesTop{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
-
 .icons{
 display: flex;
 padding: 2%;
 gap: 20px;
-
 }
 .icon{
 display: flex;
@@ -101,7 +95,6 @@ gap: 20px;
 .iconText{
     text-align: center;
 }
-
 .returnTop{
     height: 16vh;
     background-color: #1B3840;
