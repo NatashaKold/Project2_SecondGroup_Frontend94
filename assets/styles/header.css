@@ -22,20 +22,9 @@ nav{
     height: 79px;
     margin-left: 10%;
 }
-
 .logo-name{
 display: flex;
 }
-
-/*.logo-name p{
-    font-size: 25px;
-    font-family: "Montserrat Alternates", sans-serif;
-    margin-left: 0;
-    color: white;
-    margin-bottom: 0;
-    align-self: center;
-}*/
-
 
 nav ul{
     width: 100%;
